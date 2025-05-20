@@ -10,3 +10,7 @@ steps to reproduce:
 2. (in a different terminal) cd webpack-remote &&npm i && npm run dev
 3. visit http://localhost:4173/
 4. change something in webpack-remote/src/Button.jsx and see how the console is logging correctly but you can't see the change until you refresh
+
+The bug also exists in rsbuild.
+to run the rsbuild host do:
+cd rsbuild-host &&npm i && npm run build && npm run preview
