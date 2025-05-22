@@ -10,26 +10,26 @@ init({
       entry: 'http://127.0.0.1:3003/mf-manifest.json',
     },
   ],
-  shared: {
-    react: {
-      scope: 'default',
-      shareConfig: {
-        singleton: true,
-        strictVersion: true,
-        requiredVersion: '18.3.1',
-      },
-      version: '18.3.1',
-    },
-    'react-dom': {
-      scope: 'default',
-      version: '18.3.1',
-      shareConfig: {
-        singleton: true,
-        strictVersion: true,
-        requiredVersion: '18.3.1',
-      },
-    },
-  },
+  // shared: {
+  //   react: {
+  //     scope: 'default',
+  //     shareConfig: {
+  //       singleton: true,
+  //       strictVersion: true,
+  //       requiredVersion: '18.3.1',
+  //     },
+  //     version: '18.3.1',
+  //   },
+  //   'react-dom': {
+  //     scope: 'default',
+  //     version: '18.3.1',
+  //     shareConfig: {
+  //       singleton: true,
+  //       strictVersion: true,
+  //       requiredVersion: '18.3.1',
+  //     },
+  //   },
+  // },
 });
 
 // @ts-expect-error import not resolving with a component type
